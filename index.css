@@ -1,0 +1,193 @@
+.background{
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.background{
+    background-image: url(rana-sawalha-364253-unsplash@1X.png);
+    width:1366px;
+    height: 768px;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFF;
+}
+.JOURNAY:hover{
+    color: #3CB878;
+    cursor: pointer;
+}
+
+.header h1{
+    justify-content: space-around;
+
+}
+.navbar{
+    display: flex;
+}
+.navbar li{
+    padding: 0 20px;
+}
+.navbar li:nth-child(1):hover{
+    color: #3CB878;
+    cursor: pointer;
+}
+.navbar li:nth-child(2):hover{
+    color: #3CB878;
+    cursor: pointer;
+}
+.navbar li:nth-child(3):hover{
+    color: #3CB878;
+    cursor: pointer;
+}
+.left-side{
+    display: flex;
+}
+.left-side p:before{
+    content: '';
+    border-left: 1px solid gray;
+    transform: scale(0.8);
+    padding-right: 20px;
+}
+.section{
+    width: 444px;
+    height: 591px;
+    background-color: white; 
+    margin: 0 auto;
+    margin-top: 64px;
+    border-radius: 16px;
+    
+}
+.img{
+    margin-top: 29px;
+    width: 20px;
+    height: 20px;
+    background: #3CB878;
+}
+.steam{
+    display: flex;
+}
+
+.steam span{
+    margin-top: 29px;
+    margin-left: 45px;
+    margin-bottom: 14px;
+}    
+.steam span:nth-child(2){
+    font-size: 20px;
+}
+.steam span:nth-child(3){
+    margin-left: 220px;
+}
+.section span:nth-child(2){
+    color: #434343;
+}
+.section span:nth-child(3){
+    color: #3CB878;
+    cursor: pointer;
+}
+.section-button{
+    display: flex;
+}
+.osnova{
+    margin-left: 12px;
+}
+.section-button button{
+    width: 158px;
+    height: 47px;
+    display: flex;
+    padding: 17px 17px 17px 21px;
+    color: #FFFF;
+    border-radius: 10px;
+    border-width: 0px;
+    cursor: pointer;
+    
+}
+.s:active{
+    outline:none;
+    border-image: none;
+    box-sizing: none;
+}
+.section-button button i{
+    border-right: 1px solid gray;
+    padding-right: 16px;    
+}
+
+.section-button button span{
+    margin-left: 24px;
+    color: #FFFF !important;
+}
+.section-button button:nth-child(1){
+    margin-left: 40px; 
+    background-color: #305DB8;
+    outline-style: none;
+    
+}
+.section-button button:nth-child(2){
+    margin-left: 29px;
+    background-color: #DF4A32;
+    outline-style: none;
+}
+
+
+.section-input{
+    margin: 0 auto;
+
+}
+.section-input input{
+    font-size: 14px;
+    margin-top: 9px;
+    width: 322px;
+    height: 15px;
+    padding: 17px 0px 18px 19px;
+    border-color: #BEBEBE;
+    color: #0f0f0f;
+    border-width: 1px;
+    font-family: AdobeInvisFont,Courier,Verdana;
+}
+.section-input input:hover{
+    box-shadow: 0 1px 6px 0 rgba(9, 29, 90, 0.28);
+}
+.section-or{
+    display: flex;
+    justify-content: space-around;
+    margin: 17px  17px 17px 27px;
+    width: 370px;
+}
+.section-or span{
+    color: #848484;
+}
+.section-or div{
+    width: 153px;
+    height: 1px;
+    background-color: #848484;
+    margin-top: 10px;
+}
+.container-Checkbox{
+    margin-left: 37px;
+    margin-top: 19px;
+}
+.sus{
+    color: #3CB878;
+}
+.sus:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.last-button button{
+    background-color: #3CB878;
+    width: 342px;
+    height: 46px;
+    margin-left: 40px;
+    margin-top: 11px;
+    color: #ffff;
+    cursor: pointer;
+}
